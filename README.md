@@ -25,27 +25,27 @@ The dataset contains 690 credit card applications with 15 attributes plus a clas
 ```
 Credit Card Approval Prediction/
 ├── cmd/
-│   └── main.go                 # Application entry point
+│   └── main.go   
 ├── data/
-│   ├── raw/                    # Original dataset files
-│   └── processed/              # Cleaned and processed data
+│   ├── raw/
+│   └── processed/
 ├── internal/
-│   ├── models/                 # ML model implementations
-│   ├── preprocessing/          # Data preprocessing utilities
-│   ├── evaluation/             # Model evaluation functions
-│   └── visualization/          # Data visualization utilities
-├── notebooks/                  # Jupyter notebooks for exploration
-├── tests/                      # Unit and integration tests
-├── go.mod                      # Go module definition
-├── go.sum                      # Go module checksums
-├── README.md                   # This file
-└── project_proposal.md         # Detailed project proposal
+│   ├── models/
+│   ├── preprocessing/
+│   ├── evaluation/
+│   └── visualization/
+├── notebooks/
+├── tests/
+├── go.mod     
+├── go.sum 
+├── README.md  
+└── project_proposal.md 
 ```
 
 ## Requirements
 
-- Go 1.16 or higher
-- Required Go packages (will be installed via go.mod):
+- Go
+- Required Go packages
   - github.com/go-gota/gota
   - github.com/wcharczuk/go-chart/v2
   - gonum.org/v1/gonum
@@ -99,19 +99,4 @@ Preliminary results show:
 | SVM | TBD | TBD | TBD | TBD |
 | Neural Network | TBD | TBD | TBD | TBD |
 
-## Visualizations
-
-*Note: Sample visualizations will be added here after implementation.*
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- UCI Machine Learning Repository for providing the dataset
-- The GoLearn team for their machine learning library
+---
